@@ -6,6 +6,17 @@ body
         max-width: 945px
         margin: 0 auto
 
+.section
+        padding-top: 64px
+        padding-bottom: 92px
+
+.section-title
+        margin: 0
+        margin-bottom: 84px
+        font-size: 36px
+        line-height: 42px
+        color: #FFFFFF
+
 .hero
         padding-top: 50px
         background: linear-gradient(0.01deg, #000000 0.01%, rgba(0, 0, 0, 0) 95.44%)
@@ -64,3 +75,106 @@ body
         text-align: center
         text-transform: uppercase
         color: #2E2E30
+
+// features 
+
+.features
+        background-color: #000
+        &__block
+                display: flex
+                flex-wrap: wrap
+                justify-content: space-between
+        &__item
+                flex-basis: 30%
+                margin-bottom: 63px
+        &__image
+                margin-bottom: 8px
+        &__title
+                margin: 16px 0
+                font-size: 24px
+                font-weight: bold
+                line-height: 28px
+                color: #FFFFFF
+        &__text
+                font-size: 16px
+                line-height: 28px
+                color: #FFFFFF
+                margin: 0
+
+// contacts
+
+.contacts 
+        &__block
+                display: flex
+                align-items: center
+                justify-content: space-between
+        &__form
+                display: flex
+                flex-direction: column
+                background: #FFFFFF
+                box-shadow: -5px 5px 0px #FFC41D
+                border-radius: 5px
+                max-width: 380px
+                padding: 40px 48px 48px 49px
+                &__title
+                        font-weight: bold
+                        font-size: 18px
+                        line-height: 28px
+                        text-align: center
+                        color: #000000
+                        margin: 0
+                        margin-bottom: 29px
+        &__input
+                background: #F8F8F8
+                box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25)
+                border-radius: 5px
+                border: none
+                padding: 18px 20px
+                padding-left: 50px
+                font-size: 14px
+                line-height: 28px
+                &__name
+                        margin-bottom: 17px
+                        background-image: url('../icons/user-icon.svg')
+                        background-repeat: no-repeat
+                        background-position: center left 20px
+
+                &__phone
+                        margin-bottom: 26px
+                        background-image: url('../icons/phone-icon.svg')
+                        background-repeat: no-repeat
+                        background-position: center left 20px         
+        &__text
+                padding-left: 100px
+                flex-basis: 60%
+                &__policy
+                        display: inline-block
+                        font-size: 15px
+                        line-height: 18px
+                        text-decoration-line: underline
+                        color: #A5A5A5
+                        margin-top: 73px
+                &__data
+                        display: flex
+                        flex-wrap: wrap
+                        &__title
+                                font-weight: bold
+                                font-size: 24px
+                                line-height: 28px
+                                color: #FFFFFF
+                                margin-bottom: 15px
+                        &__phone
+                                flex-basis: 50%
+                        &__mail
+                                flex-basis: 50%
+                        &__social
+                                flex-basis: 100%
+                                margin-bottom: 42px
+                                margin-top: 53px      
+                        &__link
+                                text-decoration: none
+                                color: inherit
+                                margin-right: 17px
+                                &:hover
+                                        text-decoration: underline
+      

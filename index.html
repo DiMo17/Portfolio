@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dmitry Morunov</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
@@ -13,8 +14,8 @@
     <header class="hero">
         <div class="container">
             <div class="hero__header">
-                <img src="icons/logo.svg" alt="logo" class="hero__logo">
-                <div class="hero__social-links">
+                <img src="icons/logo.svg" alt="logo" class="hero__logo wow fadeIn">
+                <div class="hero__social-links wow flipInY">
                     <a href="https://github.com/DiMo17/" class="hero__social-link"><img src="icons/github.svg" alt="github"></a>
                     <a href="#" class="hero__social-link"><img src="icons/twitter.svg" alt="twitter"></a>
                     <a href="#" class="hero__social-link"><img src="icons/instagram.svg" alt="instagram"></a>
@@ -25,19 +26,115 @@
             <!-- /.hero__header -->
             <div class="hero__content">
                 <div class="hero__text">
-                    <span class="hero__subtitle">Фрилансер</span>
-                    <h1 class="hero__title">Дмитрий Морунов</h1>
-                    <p class="hero__description">Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать дизайн и верстку небольшого сайта или интернет-магазина</p>
-                    <button class="button hero__button">Бесплатная консультация</button>
+                    <span class="hero__subtitle wow fadeInLeft">Фрилансер</span>
+                    <h1 class="hero__title wow fadeInRight">Дмитрий Морунов</h1>
+                    <p class="hero__description wow fadeInLeft">Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать дизайн и верстку небольшого сайта или интернет-магазина</p>
+                    <button class="button hero__button wow fadeInUp">Бесплатная консультация</button>
                 </div>
                 <!-- /.hero__text -->
-                <div class="hero__avatar"></div>
+                <div class="hero__avatar wow fadeInRight"></div>
                 <!-- /.hero_avatar -->
             </div>
             <!-- /.hero_content -->
         </div>
         <!-- /.container -->
     </header>
+
+    <main>
+        <section class="features section">
+            <div class="container">
+                <h2 class="section-title">Со мной удобно работать</h2>
+                <div class="features__block">
+                    <div class="features__item wow fadeInLeft">
+                        <img src="icons/features/offer-img.svg" alt="offer" class="features__image">
+                        <h3 class="features__title">По договору</h3>
+                        <p class="features__text">Предоставлю все документы для бухгалтерии: договоры, счета и акты. Работаю как ИП без НДС.</p>
+                    </div>
+                    <div class="features__item wow fadeInDown">
+                        <img src="icons/features/deadline-img.svg" alt="deadline" class="features__image">
+                        <h3 class="features__title">Точно в срок</h3>
+                        <p class="features__text">В договоре прописана моя ответственность за срок проекта. Если просрочу — плачу неустойку. </p>
+                    </div>
+                    <div class="features__item wow fadeInRight">
+                        <img src="icons\features\agreement-img.svg" alt="agreement" class="features__image">
+                        <h3 class="features__title">Ценник под вас</h3>
+                        <p class="features__text">Если у вас нетиповой проект, сделаю рассчет цены за работу и объясню, как складывается цена.</p>
+                    </div>
+                    <div class="features__item wow fadeInLeft">
+                        <img src="icons\features\steps-img.svg" alt="steps" class="features__image">
+                        <h3 class="features__title">Премежуточные итоги</h3>
+                        <p class="features__text">Показываю работу поэтапно, а не в последий момент перед крайним сроком.</p>
+                    </div>
+                    <div class="features__item wow fadeInUp">
+                        <img src="icons\features\storage-img.svg" alt="storage" class="features__image">
+                        <h3 class="features__title">Хостинг и домен </h3>
+                        <p class="features__text">Если мы договорились о цене проекта, в неё входит всё: домен и хостинг на год + SSL сертификат.</p>
+                    </div>
+                    <div class="features__item wow fadeInRight">
+                        <img src="icons\features\conversation-img.svg" alt="conversation" class="features__image">
+                        <h3 class="features__title">Не брошу после сдачи</h3>
+                        <p class="features__text">Научу вас или вашего сотрудника пользоваться сайтом, запишу видео-инструкции.</p>
+                    </div>
+                </div>
+                <!-- /.features__block -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /.features -->
+    </main>
+
+    <footer class="contacts section">
+        <div class="container">
+            <h2 class="section-title">Свяжитесь со мной</h2>
+            <div class="contacts__block">
+                <form action="#" class="contacts__form wow fadeInLeft">
+                    <h4 class="contacts__form__title">Можете просто оставить заявку, я позвоню вам сегодня</h4>
+                    <input type="text" class="contacts__input contacts__input__name" placeholder="Ваше имя">
+                    <input type="text" class="contacts__input contacts__input__phone" placeholder="Ваш телефон">
+                    <button class="button">Бесплатная консультация</button>
+                </form>
+                <div class="contacts__text wow zoomInRight">
+                    <div class="contacts__text__data">
+                        <div class="contacts__text__data__phone">
+                            <h4 class="contacts__text__data__title">
+                                Телефон
+                            </h4>
+                            <a href="tel:+79991234567" class="contacts__text__data__link">+7 999 123 45 67</a>
+                        </div>
+                        <!-- /.contacts__text_data__phone -->
+                        <div class="contacts__text__data__mail">
+                            <h4 class="contacts__text__data__title">
+                                Почта
+                            </h4>
+                            <a href="mailto:styx_00@mail.ru" class="contacts__text__data__link">styx_00@mail.ru</a>
+                        </div>
+                        <!-- /.contacts__text_data__mail -->
+                        <div class="contacts__text__data__social">
+                            <h4 class="contacts__text__data__title">
+                                Соцсети
+                            </h4>
+                            <a href="#" class="contacts__text__data__link">t.me/DiMo_71</a>
+                            <a href="#" class="contacts__text__data__link">vk.me/dimender</a>
+                            <a href="#" class="contacts__text__data__link">fb.me/morunov</a>
+                        </div>
+
+                        <!-- /.contacts__text_data__social -->
+                    </div>
+                    <div class="hero__social-links">
+                        <a href="https://github.com/DiMo17/" class="hero__social-link"><img src="icons/github.svg" alt="github"></a>
+                        <a href="#" class="hero__social-link"><img src="icons/twitter.svg" alt="twitter"></a>
+                        <a href="#" class="hero__social-link"><img src="icons/instagram.svg" alt="instagram"></a>
+                        <a href="#" class="hero__social-link"><img src="icons/facebook.svg" alt="facebook"></a>
+                    </div>
+                    <a href="#" class="contacts__text__policy">Политика конфиденциальности</a>
+                </div>
+            </div>
+            <!-- /.contacts-block -->
+        </div>
+        <!-- /.container -->
+    </footer>
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
