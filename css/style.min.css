@@ -257,7 +257,12 @@ body {
   border: 2px solid #ffbb01;
   border-radius: 50%;
   display: inline-block;
-  margin: 0 5px;
+  margin: 0;
+  margin-right: 10px;
+}
+
+.project__bullet:hover {
+  cursor: pointer;
 }
 
 .project__bullet__active {
